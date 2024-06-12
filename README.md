@@ -4,9 +4,6 @@ Run
 - `pip3 install -r requirements.txt`
 
 Then open a new Tab on your terminal
-- `cd backeend/`
-- `pipenv shell`
-- `cd backend/`
 - `python3 manage.py runserver`
 
 Open [http://localhost:8000/api/todos](http://localhost:8000/api/todos) to view the API in your browser
