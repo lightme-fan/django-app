@@ -1,0 +1,189 @@
+asyncua==1.1.0
+├── aiofiles [required: Any, installed: 23.2.1]
+├── aiosqlite [required: Any, installed: 0.20.0]
+│   └── typing_extensions [required: >=4.0, installed: 4.11.0]
+├── cryptography [required: >40.0.1, installed: 38.0.1]
+│   └── cffi [required: >=1.12, installed: 1.15.1]
+│       └── pycparser [required: Any, installed: 2.21]
+├── pyOpenSSL [required: Any, installed: 24.1.0]
+│   └── cryptography [required: >=41.0.5,<43, installed: 38.0.1]
+│       └── cffi [required: >=1.12, installed: 1.15.1]
+│           └── pycparser [required: Any, installed: 2.21]
+├── python-dateutil [required: Any, installed: 2.8.2]
+│   └── six [required: >=1.5, installed: 1.16.0]
+├── pytz [required: Any, installed: 2022.5]
+├── sortedcontainers [required: Any, installed: 2.4.0]
+└── typing_extensions [required: Any, installed: 4.11.0]
+bcc==0.18.0
+blinker==1.4
+boto3==1.25.0
+├── botocore [required: >=1.28.0,<1.29.0, installed: 1.28.0]
+│   ├── jmespath [required: >=0.7.1,<2.0.0, installed: 1.0.1]
+│   ├── python-dateutil [required: >=2.1,<3.0.0, installed: 2.8.2]
+│   │   └── six [required: >=1.5, installed: 1.16.0]
+│   └── urllib3 [required: >=1.25.4,<1.27, installed: 1.26.12]
+├── jmespath [required: >=0.7.1,<2.0.0, installed: 1.0.1]
+└── s3transfer [required: >=0.6.0,<0.7.0, installed: 0.6.0]
+    └── botocore [required: >=1.12.36,<2.0a.0, installed: 1.28.0]
+        ├── jmespath [required: >=0.7.1,<2.0.0, installed: 1.0.1]
+        ├── python-dateutil [required: >=2.1,<3.0.0, installed: 2.8.2]
+        │   └── six [required: >=1.5, installed: 1.16.0]
+        └── urllib3 [required: >=1.25.4,<1.27, installed: 1.26.12]
+Brlapi==0.8.3
+chardet==4.0.0
+chrome-gnome-shell==0.0.0
+colorama==0.4.4
+command-not-found==0.3
+cupshelpers==1.0
+dbus-python==1.2.18
+defer==1.0.6
+distro==1.7.0
+django-cors-headers==3.13.0
+└── Django [required: >=3.2, installed: 3.2.11]
+    ├── asgiref [required: >=3.3.2,<4, installed: 3.5.2]
+    ├── pytz [required: Any, installed: 2022.5]
+    └── sqlparse [required: >=0.2.2, installed: 0.4.3]
+django-rest-knox==4.2.0
+├── cryptography [required: Any, installed: 38.0.1]
+│   └── cffi [required: >=1.12, installed: 1.15.1]
+│       └── pycparser [required: Any, installed: 2.21]
+├── Django [required: >=3.2, installed: 3.2.11]
+│   ├── asgiref [required: >=3.3.2,<4, installed: 3.5.2]
+│   ├── pytz [required: Any, installed: 2022.5]
+│   └── sqlparse [required: >=0.2.2, installed: 0.4.3]
+└── djangorestframework [required: Any, installed: 3.14.0]
+    ├── Django [required: >=3.0, installed: 3.2.11]
+    │   ├── asgiref [required: >=3.3.2,<4, installed: 3.5.2]
+    │   ├── pytz [required: Any, installed: 2022.5]
+    │   └── sqlparse [required: >=0.2.2, installed: 0.4.3]
+    └── pytz [required: Any, installed: 2022.5]
+djangorestframework-simplejwt==5.2.2
+├── Django [required: Any, installed: 3.2.11]
+│   ├── asgiref [required: >=3.3.2,<4, installed: 3.5.2]
+│   ├── pytz [required: Any, installed: 2022.5]
+│   └── sqlparse [required: >=0.2.2, installed: 0.4.3]
+├── djangorestframework [required: Any, installed: 3.14.0]
+│   ├── Django [required: >=3.0, installed: 3.2.11]
+│   │   ├── asgiref [required: >=3.3.2,<4, installed: 3.5.2]
+│   │   ├── pytz [required: Any, installed: 2022.5]
+│   │   └── sqlparse [required: >=0.2.2, installed: 0.4.3]
+│   └── pytz [required: Any, installed: 2022.5]
+└── PyJWT [required: >=1.7.1,<3, installed: 2.6.0]
+gunicorn==22.0.0
+└── packaging [required: Any, installed: 24.1]
+gyp==0.1
+hidpidaemon==18.04.6
+importlib-metadata==4.6.4
+jeepney==0.7.1
+Jinja2==3.1.2
+└── MarkupSafe [required: >=2.0, installed: 2.1.1]
+kazam==1.4.5
+kernelstub==3.1.4
+knox==0.1.14
+├── click [required: Any, installed: 8.1.3]
+├── dynaconf [required: Any, installed: 3.1.11]
+├── hvac [required: Any, installed: 1.0.2]
+│   ├── pyhcl [required: >=0.4.4,<0.5.0, installed: 0.4.4]
+│   └── requests [required: >=2.27.1,<3.0.0, installed: 2.28.1]
+│       ├── certifi [required: >=2017.4.17, installed: 2022.9.24]
+│       ├── charset-normalizer [required: >=2,<3, installed: 2.1.1]
+│       ├── idna [required: >=2.5,<4, installed: 3.4]
+│       └── urllib3 [required: >=1.21.1,<1.27, installed: 1.26.12]
+├── loguru [required: Any, installed: 0.6.0]
+├── shortuuid [required: Any, installed: 1.0.9]
+└── validators [required: Any, installed: 0.20.0]
+    └── decorator [required: >=3.4.0, installed: 5.1.1]
+language-selector==0.1
+launchpadlib==1.10.16
+├── httplib2 [required: Any, installed: 0.20.2]
+│   └── pyparsing [required: >=2.4.2,<4,!=3.0.3,!=3.0.2,!=3.0.1,!=3.0.0, installed: 2.4.7]
+├── keyring [required: Any, installed: 23.5.0]
+├── lazr.restfulclient [required: >=0.9.19, installed: 0.14.4]
+│   └── httplib2 [required: >=0.7.7, installed: 0.20.2]
+│       └── pyparsing [required: >=2.4.2,<4,!=3.0.3,!=3.0.2,!=3.0.1,!=3.0.0, installed: 2.4.7]
+├── lazr.uri [required: Any, installed: 1.0.6]
+└── six [required: Any, installed: 1.16.0]
+lockfile==0.12.2
+louis==3.20.0
+macaroonbakery==1.3.1
+more-itertools==8.10.0
+msgpack==1.0.3
+netaddr==0.8.0
+netifaces==0.11.0
+oauthlib==3.2.0
+pastel==0.2.1
+pipdeptree==2.22.0
+├── packaging [required: >=23.1, installed: 24.1]
+└── pip [required: >=23.1.2, installed: 24.0]
+pipenv==11.9.0
+pipfile==0.0.2
+└── toml [required: Any, installed: 0.10.2]
+poetry==1.1.12
+├── CacheControl [required: >=0.12.9,<0.13.0, installed: 0.12.10]
+├── cachy [required: >=0.3.0,<0.4.0, installed: 0.3.0]
+├── cleo [required: >=0.8.1,<0.9.0, installed: 0.8.1]
+│   └── clikit [required: >=0.6.0,<0.7.0, installed: 0.6.2]
+│       └── crashtest [required: >=0.3.0,<0.4.0, installed: 0.3.1]
+├── clikit [required: >=0.6.2,<0.7.0, installed: 0.6.2]
+│   └── crashtest [required: >=0.3.0,<0.4.0, installed: 0.3.1]
+├── crashtest [required: >=0.3.0,<0.4.0, installed: 0.3.1]
+├── html5lib [required: >=1.0,<2.0, installed: 1.1]
+├── keyring [required: >=21.2.0,<22.0.0, installed: 23.5.0]
+├── packaging [required: >=20.4,<21.0, installed: 24.1]
+├── pexpect [required: >=4.7.0,<5.0.0, installed: 4.8.0]
+├── pkginfo [required: >=1.4,<2.0, installed: 1.8.2]
+├── poetry-core [required: >=1.0.7,<1.1.0, installed: 1.0.7]
+├── requests [required: >=2.18,<3.0, installed: 2.28.1]
+│   ├── certifi [required: >=2017.4.17, installed: 2022.9.24]
+│   ├── charset-normalizer [required: >=2,<3, installed: 2.1.1]
+│   ├── idna [required: >=2.5,<4, installed: 3.4]
+│   └── urllib3 [required: >=1.21.1,<1.27, installed: 1.26.12]
+├── requests-toolbelt [required: >=0.9.1,<0.10.0, installed: 0.9.1]
+├── shellingham [required: >=1.1,<2.0, installed: 1.4.0]
+├── tomlkit [required: >=0.7.0,<1.0.0, installed: 0.9.2]
+└── virtualenv [required: >=20.0.26,<21.0.0, installed: 20.13.0+ds]
+    ├── distlib [required: >=0.3.1,<1, installed: 0.3.4]
+    ├── filelock [required: >=3.2,<4, installed: 3.6.0]
+    ├── platformdirs [required: >=2,<3, installed: 2.5.1]
+    └── six [required: >=1.9.0,<2, installed: 1.16.0]
+pop-transition==1.1.2
+protobuf==3.12.4
+ptyprocess==0.7.0
+pycups==2.0.1
+pydbus==0.6.0
+PyGObject==3.42.1
+└── pycairo [required: >=1.16.0, installed: 1.20.1]
+pylev==1.2.0
+pymacaroons==0.13.0
+PyNaCl==1.5.0
+└── cffi [required: >=1.4.1, installed: 1.15.1]
+    └── pycparser [required: Any, installed: 2.21]
+pyRFC3339==1.1
+python-apt==2.4.0+ubuntu3
+python-debian==0.1.43+ubuntu1.1
+python-gnupg==0.4.8
+python-xlib==0.29
+pyxdg==0.27
+PyYAML==5.4.1
+repolib==2.2.1
+repoman==1.4.0
+SecretStorage==3.3.1
+sessioninstaller==0.0.0
+setuptools==59.6.0
+systemd-python==234
+ubuntu-advantage-tools==27.7
+ubuntu-drivers-common==0.0.0
+ufw==0.36.1
+vercel==0.2.1
+└── requests [required: >=2.24.0,<3.0.0, installed: 2.28.1]
+    ├── certifi [required: >=2017.4.17, installed: 2022.9.24]
+    ├── charset-normalizer [required: >=2,<3, installed: 2.1.1]
+    ├── idna [required: >=2.5,<4, installed: 3.4]
+    └── urllib3 [required: >=1.21.1,<1.27, installed: 1.26.12]
+virtualenv-clone==0.3.0
+wadllib==1.3.6
+webencodings==0.5.1
+wheel==0.37.1
+xdg==5
+xkit==0.0.0
+zipp==1.0.0
