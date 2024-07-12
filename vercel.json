@@ -1,7 +1,7 @@
 {
     "version": 2,
     "builds": [
-      { "src": "backend/wsgi.py", "use": "@vercel/python", "config": { "maxLambdaSize": "300mb", "runtime": "python3" } }
+      { "src": "backend/wsgi.py", "use": "@vercel/python", "config": { "runtime": "python3" } }
     ],
     "routes": [
       { "src": "/(.*)", "dest": "backend/wsgi.py" }
